@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+
+  
     
-    
+}
+html{ 
+    scroll-behavior: smooth;
 }
 body{
     display: flex;
@@ -11,16 +16,22 @@ body{
     
     
 }
+a{
+    color:  rgb(77, 78, 83);
+    text-decoration: none;
+    
+}
 #navbar{
     
     padding: 20px;
-    height: fit-content;
+    height: 100vh;
     padding: 1px 0px;
-    border: 3px solid gray;
+    border-right: 3px solid rgb(95, 88, 88);
     gap: 10px;
-    margin: 10px 15px;
+    margin-top: 15px 0px;
     position: sticky;
     top: 0;
+    overflow-y: auto;
 
 
 }
@@ -68,7 +79,7 @@ main section ul li{
     margin: 15px 0px 0px 70px;
     color: rgb(77, 78, 83);
   
-}
+}p
 .keza{
     display: block;
     background-color:rgb(247, 247, 247) ;
